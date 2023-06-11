@@ -4,13 +4,13 @@ Catchup Chatapp is a simple chat application made using React and Node.js. It al
 ## Installation
 To install the dependencies for this project, run the following command in the root directory:
 
-### 'npm install'
+### `npm install`
 This will install the dependencies listed in the package.json file. This command will also install the dependencies of the frontend and backend using the postinstall script.
 
 ##Usage
 To start the backend and frontend servers, run the following command in the root directory:
 
-### 'npm start'
+### `npm start`
 This will start the backend and frontend servers in parallel using the npm-run-all package.
 Open [http://localhost:5173/](http://localhost:5173/) to view it in your browser.
 
