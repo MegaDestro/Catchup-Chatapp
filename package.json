@@ -1,0 +1,15 @@
+{
+    "name": "catchup-chatapp",
+    "version": "0.1.0",
+    "description": "A simple chatapp made using React and NodeJS",
+    "author": "Harsh Kumar Singh",
+    "scripts": {
+        "start": "npm-run-all --parallel start:frontend start:backend",
+        "start:backend": "cd backend && npm run start",
+        "start:frontend": "cd frontend && npm run dev",
+        "postinstall": "cd backend && npm install && cd ../frontend && npm install"
+    },
+    "devDependencies": {
+        "npm-run-all": "^4.1.5"
+    }
+}
